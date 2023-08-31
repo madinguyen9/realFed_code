@@ -1,0 +1,293 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/icon-mobile-signal.png
+    - assets/page-1/images/heartfill.png
+    - assets/page-1/images/ellipse-3.png
+    - assets/page-1/images/battery.png
+    - assets/page-1/images/icon-mobile-signal-22b.png
+    - assets/page-1/images/heartfill-xQf.png
+    - assets/page-1/images/heartfill-urw.png
+    - assets/page-1/images/koreaboo-heart.png
+    - assets/page-1/images/heartfill-hmh.png
+    - assets/page-1/images/ellipse-3-4QX.png
+    - assets/page-1/images/heartfill-f4B.png
+    - assets/page-1/images/battery-Bq1.png
+    - assets/page-1/images/heartfill-1wd.png
+    - assets/page-1/images/heartfill-rrj.png
+    - assets/page-1/images/heartfill-BZZ.png
+    - assets/page-1/images/friend-ily-2.png
+    - assets/page-1/images/heartfill-mRH.png
+    - assets/page-1/images/frame.png
+    - assets/page-1/images/battery-X4j.png
+    - assets/page-1/images/heartfill-Tyy.png
+    - assets/page-1/images/notch.png
+    - assets/page-1/images/heartfill-yE7.png
+    - assets/page-1/images/wifi.png
+    - assets/page-1/images/heartfill-GW3.png
+    - assets/page-1/images/battery-dbV.png
+    - assets/page-1/images/heartfill-uqq.png
+    - assets/page-1/images/battery-zcP.png
+    - assets/page-1/images/icon-mobile-signal-Wqd.png
+    - assets/page-1/images/friend-ily-14-1.png
+    - assets/page-1/images/wifi-iW3.png
+    - assets/page-1/images/heartfill-VaP.png
+    - assets/page-1/images/plus.png
+    - assets/page-1/images/ellipse-2.png
+    - assets/page-1/images/friend-ily-1-bg.png
+    - assets/page-1/images/wifi-Rou.png
+    - assets/page-1/images/notch-yaX.png
+    - assets/page-1/images/notch-G2K.png
+    - assets/page-1/images/heartfill-oY3.png
+    - assets/page-1/images/rectangle-180.png
+    - assets/page-1/images/rectangle-181-bg.png
+    - assets/page-1/images/wifi-pHD.png
+    - assets/page-1/images/auto-group-mwts.png
+    - assets/page-1/images/heartfill-XhR.png
+    - assets/page-1/images/friend-ily-16-1.png
+    - assets/page-1/images/ellipse-2-P3u.png
+    - assets/page-1/images/icon-mobile-signal-WeK.png
+    - assets/page-1/images/notch-GtP.png
+    - assets/page-1/images/wifi-CGF.png
+    - assets/page-1/images/icon-mobile-signal-M99.png
+    - assets/page-1/images/notch-uwM.png
+    - assets/page-1/images/music-notes.png
+    - assets/page-1/images/vector-580.png
+    - assets/page-1/images/notch-159.png
+    - assets/page-1/images/heartfill-xSK.png
+    - assets/page-1/images/ellipse-3-U9m.png
+    - assets/page-1/images/ellipse-1.png
+    - assets/page-1/images/ellipse-1-dKV.png
+    - assets/page-1/images/battery-WNb.png
+    - assets/page-1/images/friend-ily-12-1.png
+    - assets/page-1/images/like.png
+    - assets/page-1/images/friend-ily-copy-2-1.png
+    - assets/page-1/images/icon-mobile-signal-9EF.png
+    - assets/page-1/images/booksvertical.png
+    - assets/page-1/images/notch-PTM.png
+    - assets/page-1/images/vector-117.png
+    - assets/page-1/images/home.png
+    - assets/page-1/images/calendar.png
+    - assets/page-1/images/vector-116.png
+    - assets/page-1/images/battery-zdu.png
+    - assets/page-1/images/icon-mobile-signal-nCP.png
+    - assets/page-1/images/rectangle-193.png
+    - assets/page-1/images/rectangle-171-bg.png
+    - assets/page-1/images/vector-115.png
+    - assets/page-1/images/wifi-GM5.png
+    - assets/page-1/images/gift.png
+    - assets/page-1/images/rectangle-203-bg.png
+    - assets/page-1/images/heartfill-Ekw.png
+    - assets/page-1/images/friend-ily-35-copy-2-1.png
+    - assets/page-1/images/friend-ily-1-1.png
+    - assets/page-1/images/friend-ily-18-1.png
+    - assets/page-1/images/sunny-heart-man.png
+    - assets/page-1/images/ellipse-2-ob5.png
+    - assets/page-1/images/friend-ily-20-1.png
+    - assets/page-1/images/rectangle-188-bg.png
+    - assets/page-1/images/friend-ily-35-copy-2-2.png
+    - assets/page-1/images/wifi-vi3.png
+    - assets/page-1/images/ellipse-1-TfM.png
+    - assets/page-1/images/friend-ily-10-1.png
+    - assets/page-1/images/friend-ily-30-1.png
+    - assets/page-1/images/battery-jDR.png
+    - assets/page-1/images/icon-emoji.png
+    - assets/page-1/images/vector-587.png
+    - assets/page-1/images/diamondfill.png
+    - assets/page-1/images/notch-T43.png
+    - assets/page-1/images/rectangle-192-bg.png
+    - assets/page-1/images/rectangle-194-bg.png
+    - assets/page-1/images/icon-mobile-signal-rcP.png
+    - assets/page-1/images/icon-mobile-signal-PMR.png
+    - assets/page-1/images/key.png
+    - assets/page-1/images/heart.png
+    - assets/page-1/images/wifi-P3V.png
+    - assets/page-1/images/notch-Kxj.png
+    - assets/page-1/images/icon-dictation.png
+    - assets/page-1/images/friend-ily-29-1.png
+    - assets/page-1/images/home-p8o.png
+    - assets/page-1/images/key-ug3.png
+    - assets/page-1/images/vector-581.png
+    - assets/page-1/images/.png
+    - assets/page-1/images/vector-579.png
+    - assets/page-1/images/frame-kAs.png
+    - assets/page-1/images/vector-118.png
+    - assets/page-1/images/diamondfill-3vf.png
+    - assets/page-1/images/battery-PzX.png
+    - assets/page-1/images/friend-ily-29-1-Les.png
+    - assets/page-1/images/rectangle-196-bg.png
+    - assets/page-1/images/rectangle-170-bg.png
+    - assets/page-1/images/rectangle-174-bg.png
+    - assets/page-1/images/rectangle-197-bg.png
+    - assets/page-1/images/rectangle-186-bg.png
+    - assets/page-1/images/ellipse-222.png
+    - assets/page-1/images/vector-116-8o9.png
+    - assets/page-1/images/check.png
+    - assets/page-1/images/icon-emoji-WdD.png
+    - assets/page-1/images/rectangle-176-bg.png
+    - assets/page-1/images/rectangle-199-bg.png
+    - assets/page-1/images/home-U9u.png
+    - assets/page-1/images/rectangle-184-bg.png
+    - assets/page-1/images/rectangle-190-bg.png
+    - assets/page-1/images/check-JsZ.png
+    - assets/page-1/images/wifi-SD5.png
+    - assets/page-1/images/key-DuH.png
+    - assets/page-1/images/icon-dictation-V67.png
+    - assets/page-1/images/friend-ily-31-1.png
+    - assets/page-1/images/vector-116-Hou.png
+    - assets/page-1/images/key-SMM.png
+    - assets/page-1/images/ellipse-223-bg.png
+    - assets/page-1/images/rectangle-178.png
+    - assets/page-1/images/key-T1q.png
+    - assets/page-1/images/home-9LB.png
+    - assets/page-1/images/icon-emoji-PmZ.png
+    - assets/page-1/images/friend-ily-34-1.png
+    - assets/page-1/images/friend-ily-35-1.png
+    - assets/page-1/images/notch-UAB.png
+    - assets/page-1/images/icon-dictation-5pB.png
+    - assets/page-1/images/notch-dYT.png
+    - assets/page-1/images/friend-ily-34-1-reb.png
+    - assets/page-1/images/battery-Mf5.png
+    - assets/page-1/images/friend-ily-32-1.png
+    - assets/page-1/images/wifi-nAK.png
+    - assets/page-1/images/rectangle-201-bg.png
+    - assets/page-1/images/vector-116-5od.png
+    - assets/page-1/images/key-vhd.png
+    - assets/page-1/images/battery-Vn7.png
+    - assets/page-1/images/home-dNX.png
+    - assets/page-1/images/icon-mobile-signal-wo5.png
+    - assets/page-1/images/vector-116-d4B.png
+    - assets/page-1/images/rectangle-193-eET.png
+    - assets/page-1/images/vector-118-kVd.png
+    - assets/page-1/images/icon-mobile-signal-V2w.png
+    - assets/page-1/images/frame-8.png
+    - assets/page-1/images/icon-mobile-signal-KmR.png
+    - assets/page-1/images/wifi-3j5.png
+    - assets/page-1/images/check-gqm.png
+    - assets/page-1/images/diamondfill-E7q.png
+    - assets/page-1/images/booksvertical-LUP.png
+    - assets/page-1/images/vector-580-UFR.png
+    - assets/page-1/images/friend-ily-28-2.png
+    - assets/page-1/images/friend-ily-33-1.png
+    - assets/page-1/images/vector-579-pSj.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/screen-1.png
+    - assets/page-1/images/vector-581-DoM.png
+    - assets/page-1/images/diamondfill-5aF.png
+    - assets/page-1/images/main.png
+    - assets/page-1/images/wifi-mVy.png
+    - assets/page-1/images/notch-2Nb.png
+    - assets/page-1/images/heart-ahu.png
+    - assets/page-1/images/screen-2.png
+    - assets/page-1/images/friend-ily-2-bg.png
+    - assets/page-1/images/home-rVu.png
+    - assets/page-1/images/shadow.png
+    - assets/page-1/images/vector-116-AQ7.png
+    - assets/page-1/images/vector-115-txo.png
+    - assets/page-1/images/calendar-BaF.png
+    - assets/page-1/images/vector-117-BvP.png
+    - assets/page-1/images/ellipse-223-bg-p39.png
+    - assets/page-1/images/friend-ily-29-1-NC7.png
+    - assets/page-1/images/battery-ytT.png
+    - assets/page-1/images/gift-kiK.png
+    - assets/page-1/images/battery-dFM.png
+    - assets/page-1/images/notch-8ET.png
+    - assets/page-1/images/wifi-t15.png
+    - assets/page-1/images/icon-mobile-signal-ByZ.png
+    - assets/page-1/images/friend-ily-30-1-hwu.png
+    - assets/page-1/images/ellipse-222-pAb.png
+    - assets/page-1/images/-Sfh.png
+    - assets/page-1/images/-kSj.png
+    - assets/page-1/images/-N87.png
+    - assets/page-1/images/friend-ily-35-copy-1.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
